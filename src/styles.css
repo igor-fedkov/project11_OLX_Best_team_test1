@@ -1,0 +1,11 @@
+@import "./css/morkup-card.css";
+
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
