@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YevheniiaBondarenko/goit-js-hw-13-image-finder.git"
+    "url": "git+https://github.com/YevheniiaBondarenko/project11_OLX_Best_team_test1.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YevheniiaBondarenko/goit-js-hw-13-image-finder/issues"
+    "url": "https://github.com/YevheniiaBondarenko/project11_OLX_Best_team_test1/issues"
   },
-  "homepage": "https://YevheniiaBondarenko.github.io/goit-js-hw-13-image-finder",
+  "homepage": "https://YevheniiaBondarenko.github.io/project11_OLX_Best_team_test1",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
