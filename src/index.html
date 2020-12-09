@@ -807,42 +807,57 @@
     <div class="#"></div>
     <!-- Modal to new advert -->
     <!-- присвоить модалке класс backdrop is-hidden -->
-    <div class="advert-modal backdrop is-hidden">
-      <form>
-        <h3>Додати оголошення</h3>
-        <svg class="" width="14px" height="14px">
-          <use href="/"></use>
-        </svg>
-        <label for=""
-          >Назва товару
-          <input type="text" />
-        </label>
-        <label for=""
-          >Фото
-          <input type="file" accept="image/jpeg,image/png" />
-          <input type="file" accept="image/jpeg,image/png" />
-          <input type="file" accept="image/jpeg,image/png" />
-          <input type="file" accept="image/jpeg,image/png" />
-          <input type="file" accept="image/jpeg,image/png" />
-        </label>
-        <label for=""
-          >Опис товару
-          <input type="text" />
-        </label>
-        <label for=""
-          >Категорія товару
-          <input type="text" />
-        </label>
-        <label for=""
-          >Ціна
-          <input type="number" placeholder="0.00 грн" />
-        </label>
-        <label for=""
-          >Телефон
-          <input type="tel" placeholder="+38 (0--) --- -- --" />
-        </label>
-        <button type="submit">Додати</button>
-      </form>
+    <div class="backdrop">
+      <div class="advert-modal">
+        <form class="modal-form">
+          <h3 class="modal-title">Додати оголошення</h3>
+          <svg class="modal-close-icon" width="14px" height="14px">
+            <use href="/"></use>
+          </svg>
+          <label  class="modal-input-product"
+            >Назва товару
+            <input class="modal-input" type="text" />
+          </label>
+          <label class="modal-upload"
+            >Фото
+           <div class="upload-form">
+            <div class="upload-icon">
+              <input type="file" accept="image/jpeg,image/png" />
+             </div>
+             <div class="upload-icon">
+              <input type="file" accept="image/jpeg,image/png" />
+             </div>
+             <div class="upload-icon">
+              <input type="file" accept="image/jpeg,image/png" />
+             </div>
+             <div class="upload-icon">
+              <input type="file" accept="image/jpeg,image/png" />
+             </div>
+             <div class="upload-icon">
+              <input type="file" accept="image/jpeg,image/png" />
+             </div>
+           </div>
+          </label>
+          <label class="modal-form-description"
+            >Опис товару
+            <!-- <textarea class="modal-input" type="text" /> -->
+            <textarea class="modal-input"  name="" id="" cols="30" rows="10"></textarea>
+          </label>
+          <label for=""
+            >Категорія товару
+            <input class="modal-input" type="text" />
+          </label>
+          <label for=""
+            >Ціна
+            <input class="modal-input" type="number" placeholder="0.00 грн" />
+          </label>
+          <label for=""
+            >Телефон
+            <input class="modal-input" type="tel" placeholder="+38 (0--) --- -- --" />
+          </label>
+          <button class="modal-buttom" type="submit">ДОДАТИ</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
